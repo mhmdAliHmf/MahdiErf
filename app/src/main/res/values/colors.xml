@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-    <resources>
-        <color name="black">#FF000000</color>
-        <color name="white">#FFFFFFFF</color>
-
-        <color name="primary">#006400</color> <!-- Dark Green -->
-        <color name="primary_variant">#2E8B57</color> <!-- Sea Green -->
-        <color name="secondary">#FFD700</color> <!-- Gold -->
-    </resources>
