@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="64dp"
+        android:textColor="?attr/colorPrimary" />
+
+    <Button
+        android:id="@+id/btn_donate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="کمک مالی"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_submit_request"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?attr/materialButtonOutlinedStyle"
+        android:text="ثبت درخواست"
+        android:textSize="18sp" />
+
+</LinearLayout>
